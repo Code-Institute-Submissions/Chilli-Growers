@@ -1,8 +1,6 @@
-# Your Project's Name
+# Chilli Growers.
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+A website designed to provide information to users on how to grow chilli plants. Will also include a section on recommended chilli types with links to the related wikipedia pages.
  
 ## UX
  
