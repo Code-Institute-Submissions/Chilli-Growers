@@ -1,16 +1,36 @@
-*{
-    margin: 0;
+body {
     padding: 0;
+    margin: 0;
 }
-
 /*---------Backgrounds*/
-
-
+.bg-background-navbar {
+    background-color: #4baec7;
+}
 /*---------Navbar*/
 
+.navbar-toggler {
+    border-color: red;
+}
+
+.navbar-toggler-icon {
+    padding-top: 4px;
+    color: red;
+}
+
+.navbar .navbar-collapse {
+    background: transparent;
+}
+
+.navbar button:focus {
+    outline: 1px;
+}
 
 /*---------Reasons*/
 
 /*---------Growing Guide*/
 
 /*---------Chilli Types*/
+
+.reasons    {
+    color: red;
+}
