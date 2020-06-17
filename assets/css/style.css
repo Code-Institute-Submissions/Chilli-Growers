@@ -6,11 +6,33 @@ body {
 .text-uppercase {
     text-transform: uppercase;
 }
+
+/*---------Icons*/
+#seedling {
+    color:greenyellow;
+}
+
+#tint {
+    color: cyan;
+}
+
+#pepper {
+    color: red;
+}
+
 /*---------Backgrounds*/
 .bg-background-navbar {
     background-color: #4baec7;
 }
 /*---------Navbar*/
+#nav-brand-image {
+    height: 50px;
+    right:10px;
+}
+.navbar>a {
+    color: #fafafa;
+    font-weight: bold;
+}
 .nav-item>a {
     font-weight: bold;
     color: #fafafa;
@@ -51,7 +73,7 @@ body {
 
 .callout>h1 {
     position: absolute;
-    top: 1.5em;
+    top: 15%;
     width: 100%;
     text-align: center;
     color: red;    
