@@ -2,18 +2,29 @@ body {
     padding: 0;
     margin: 0;
 }
+
+.text-uppercase {
+    text-transform: uppercase;
+}
 /*---------Backgrounds*/
 .bg-background-navbar {
     background-color: #4baec7;
 }
 /*---------Navbar*/
-
+.nav-item>a {
+    font-weight: bold;
+    color: #fafafa;
+    background: transparent;
+}
+.nav-item>a:focus, .nav-item>a:hover, .nav-item>a:after {
+    color: grey;
+}
 .navbar-toggler {
     border-color: red;
 }
 
-.navbar-toggler-icon {
-    padding-top: 4px;
+.navbar-toggler>i {
+    padding-top: 3px;
     color: red;
 }
 
@@ -24,7 +35,27 @@ body {
 .navbar button:focus {
     outline: 1px;
 }
+/*---------Hero image*/
 
+.callout-container {
+    background: url("../images/heroimage.jpg") no-repeat center center fixed;
+    height: 100vh;
+
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/*---------Callout*/
+
+.callout>h1 {
+    position: absolute;
+    top: 1.5em;
+    width: 100%;
+    text-align: center;
+    color: red;    
+}
 /*---------Reasons*/
 
 /*---------Growing Guide*/
@@ -32,5 +63,5 @@ body {
 /*---------Chilli Types*/
 
 .reasons    {
-    color: red;
+
 }
