@@ -89,4 +89,12 @@ body {
 
 /*---------Growing Guide*/
 
+.nav-pills>a {
+    display: block;
+    padding: 0.5rem 0rem;
+}
+
+.tab-content>.tab-pane {
+    padding-left: 1rem;
+}
 /*---------Chilli Types*/
