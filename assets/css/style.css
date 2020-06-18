@@ -1,89 +1,92 @@
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .text-uppercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 /*---------Icons*/
 #seedling {
-    color:greenyellow;
+  color: greenyellow;
 }
 
 #tint {
-    color: cyan;
+  color: cyan;
 }
 
 #pepper {
-    color: red;
+  color: red;
 }
 
 /*---------Backgrounds*/
-.bg-background-navbar {
-    background-color: #4baec7;
+.navbar, .navbar-collapse, .navbar-nav {
+  background-color: rgb(9, 39, 122) !important;
 }
 /*---------Navbar*/
 #nav-brand-image {
-    height: 50px;
-    right:10px;
+  height: 50px;
+  right: 10px;
 }
-.navbar>a {
-    color: #fafafa;
-    font-weight: bold;
+.navbar > a {
+  color: #fafafa;
+  font-weight: bold;
 }
-.nav-item>a {
-    font-weight: bold;
-    color: #fafafa;
-    background: transparent;
+.nav-item > a {
+  font-weight: bold;
+  color: #fafafa;
 }
-.nav-item>a:focus, .nav-item>a:hover, .nav-item>a:after {
-    color: grey;
+.nav-item > a:focus,
+.nav-item > a:hover,
+.navbar > a:hover,
+.navbar > a:focus {
+  color: grey;
+  background: transparent;
 }
 .navbar-toggler {
-    border-color: red;
+  border-color: red;
 }
 
-.navbar-toggler>i {
-    padding-top: 3px;
-    color: red;
+.navbar-toggler > i {
+  padding-top: 3px;
+  color: red;
 }
 
 .navbar .navbar-collapse {
-    background: transparent;
+  background: transparent;
 }
 
 .navbar button:focus {
-    outline: 1px;
+  outline: 1px;
 }
 /*---------Hero image*/
 
 .callout-container {
-    background: url("../images/heroimage.jpg") no-repeat center center fixed;
-    height: 100vh;
+  background: url("../images/heroimage.jpg") no-repeat center center fixed;
+  height: 100vh;
 
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 /*---------Callout*/
 
-.callout>h1 {
-    position: absolute;
-    top: 15%;
-    width: 100%;
-    text-align: center;
-    color: red;    
+.callout {
+  position: absolute;
+  top: 70%;
+  width: 50%;
+  text-align: center;
+  color: red;
+  background-color: rgba(0, 0, 0, 0.5);
+  left: 25%;
+  padding-bottom: 10px;
+  text-size-adjust: auto;
 }
 /*---------Reasons*/
 
 /*---------Growing Guide*/
 
 /*---------Chilli Types*/
-
-.reasons    {
-
-}
