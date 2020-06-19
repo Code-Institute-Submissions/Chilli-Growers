@@ -98,3 +98,12 @@ body {
     padding-left: 1rem;
 }
 /*---------Chilli Types*/
+
+/*---------Modal*/
+
+.modal-content {
+    border-radius: 3%;
+    background-clip: border-box;
+    min-height: 2rem;
+    min-width: 2rem;
+}
