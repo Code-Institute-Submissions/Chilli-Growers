@@ -48,6 +48,7 @@ html {
   background: transparent;
 }
 .navbar-toggler {
+  border-radius: 2px;
   border-color: red;
 }
 
@@ -79,7 +80,7 @@ html {
 
 .callout {
   position: absolute;
-  top: 70%;
+  top: 50%;
   width: 50%;
   text-align: center;
   color: red;

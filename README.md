@@ -1,5 +1,7 @@
 # Chilli Growers.
 
+**Milestone Project 1: User-Centric Frontend Development - Code Institute**
+
 A website designed to provide information to users on how to grow chilli plants. Will also include a section on recommended chilli types with links to the related wikipedia pages.
  
 ## UX
