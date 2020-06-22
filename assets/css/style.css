@@ -6,9 +6,7 @@ body {
 html {
     scroll-behavior: smooth;
 }
-.text-uppercase {
-  text-transform: uppercase;
-}
+
 
 /*---------Icons*/
 #seedling {
@@ -94,8 +92,13 @@ html {
 /*---------Growing Guide*/
 
 .nav-pills>a {
-    display: block;
-    padding: 0.5rem 0rem;
+    display: inline;
+    padding: 0.5rem 10px;
+    color: rgb(0, 0, 0);
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: rgb(0, 0, 0);
+    background-color: rgb(58, 223, 43);
 }
 
 .tab-content>.tab-pane {
