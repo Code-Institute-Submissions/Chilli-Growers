@@ -43,7 +43,6 @@ html {
 .navbar > a:hover,
 .navbar > a:focus {
   color: grey;
-  background: transparent;
 }
 .navbar-toggler {
   border-radius: 2px;
@@ -55,12 +54,10 @@ html {
   color: red;
 }
 
-.navbar .navbar-collapse {
-  background: transparent;
-}
+
 
 .navbar button:focus {
-  outline: 1px;
+  border: 3px, black;
 }
 /*---------Hero image*/
 
