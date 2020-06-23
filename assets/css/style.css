@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:100,200,300,400,500,600,700');
+
 body {
+  font-family:"PT Sans", sans-serif; 
   padding: 0;
   margin: 0;
 }
@@ -76,13 +79,13 @@ html {
 .callout {
   position: absolute;
   top: 50%;
-  width: 50%;
+  width: 40vw;
   text-align: center;
-  color: red;
-  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  background-color: rgba(8, 202, 18, 0.70);
   left: 25%;
-  padding-bottom: 10px;
-  text-size-adjust: auto;
+  padding: 10px 10px;
+  font-size: 10px;
 }
 /*---------Reasons*/
 
@@ -100,6 +103,15 @@ html {
 
 .tab-content>.tab-pane {
     padding-left: 1rem;
+}
+
+ul.equipment {
+  list-style: none; /* Removes HTML bullets */
+}
+
+ul.equipment>li::before {
+  content: "✔"; /* Inserts content that looks like bullets */
+  color: #db0e0e;
 }
 /*---------Chilli Types*/
 

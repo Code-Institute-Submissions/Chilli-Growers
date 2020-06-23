@@ -3,7 +3,8 @@
 **Milestone Project 1: User-Centric Frontend Development - Code Institute**
 
 A website designed to provide information to users on how to grow chilli plants. Will also include a section on recommended chilli types with links to the related wikipedia pages.
- 
+The user base will mostly be beginner growers looking to start their own plant.
+
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -30,10 +31,16 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
+- [Balsamiq](https://balsamiq.com/)
+    - For basic wireframe mockup.
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+    - To create the site.
+- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    - To create custom styles.
 - [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+    - To simplify DOM manipulation.
+- [Bootstrap](https://getbootstrap.com/)
+    - For better responsiveness.
 
 
 ## Testing
