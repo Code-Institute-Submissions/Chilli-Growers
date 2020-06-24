@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans');
 
 body {
   font-family:"PT Sans", sans-serif; 
@@ -83,9 +83,10 @@ html {
   text-align: center;
   color: #fff;
   background-color: rgba(8, 202, 18, 0.70);
-  left: 25%;
+  left: 33%;
   padding: 10px 10px;
   font-size: 10px;
+  overflow: auto;
 }
 /*---------Reasons*/
 
@@ -102,7 +103,7 @@ html {
 }
 
 .tab-content>.tab-pane {
-    padding-left: 1rem;
+    padding-left: 3rem;
 }
 
 ul.equipment {
@@ -111,7 +112,22 @@ ul.equipment {
 
 ul.equipment>li::before {
   content: "✔"; /* Inserts content that looks like bullets */
-  color: #db0e0e;
+}
+ul.tips {
+  list-style: none;
+}
+
+ul.tips>li::before {
+  content: "➤";
+}
+
+.tab-pane>img {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*---------Chilli Types*/
 
