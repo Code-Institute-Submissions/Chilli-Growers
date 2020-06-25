@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans");
 
 body {
-  font-family:"PT Sans", sans-serif; 
+  font-family: "PT Sans", sans-serif;
   padding: 0;
   margin: 0;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-
 
 /*---------Icons*/
 #seedling {
@@ -25,7 +24,9 @@ html {
 }
 
 /*---------Backgrounds*/
-.navbar, .navbar-collapse, .navbar-nav {
+.navbar,
+.navbar-collapse,
+.navbar-nav {
   background-color: rgb(9, 39, 122) !important;
 }
 /*---------Navbar*/
@@ -57,8 +58,6 @@ html {
   color: red;
 }
 
-
-
 .navbar button:focus {
   border: 3px, black;
 }
@@ -82,7 +81,7 @@ html {
   width: 40vw;
   text-align: center;
   color: #fff;
-  background-color: rgba(8, 202, 18, 0.70);
+  background-color: rgba(8, 202, 18, 0.7);
   left: 33%;
   padding: 10px 10px;
   font-size: 10px;
@@ -92,65 +91,95 @@ html {
 
 /*---------Growing Guide*/
 
-.nav-pills>a {
-    display: inline;
-    padding: 0.5rem 10px;
-    color: rgb(0, 0, 0);
+.nav-pills > a {
+  display: inline;
+  padding: 0.5rem 10px;
+  color: rgb(0, 0, 0);
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    color: rgb(0, 0, 0);
-    background-color: rgb(58, 223, 43);
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: rgb(0, 0, 0);
+  background-color: rgb(58, 223, 43);
+  border: 2px solid black;
 }
 
-.tab-content>.tab-pane {
-    padding-left: 3rem;
+.tab-content > .tab-pane {
+  padding-left: 3rem;
 }
 
 ul.equipment {
   list-style: none; /* Removes HTML bullets */
 }
 
-ul.equipment>li::before {
+ul.equipment > li::before {
   content: "✔"; /* Inserts content that looks like bullets */
 }
 ul.tips {
   list-style: none;
 }
 
-ul.tips>li::before {
+ul.tips > li::before {
   content: "➤";
 }
 
-.tab-pane>img {
-    height: 50%;
-    max-width: 100%;
-    max-height: 100%;
-    width: 300px;
-    padding: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.tab-pane > img {
+  height: 50%;
+  max-width: 100%;
+  max-height: 100%;
+  width: 300px;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*---------Chilli Types*/
 
-.chillies>img {
-    height: 50%;
-    max-width: 100%;
-    max-height: 100%;
-    width: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.chillies img {
+  height: 50%;
+  max-width: 100%;
+  max-height: 100%;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.chillies>h3 {
-    text-decoration: underline;
+.chillies h3 {
+  text-decoration: underline;
+}
+
+.shu-info .key {
+  width: 30%;
+  margin-right: 21px;
+  padding-top: 2px;
+  vertical-align: top;
+}
+
+.shu-info .value {
+  position: relative;
+  width: 30%;
+}
+
+.shu-info .key,
+.shu-info .value {
+  padding-right: 8px;
+  display: inline-block;
 }
 /*---------Modal*/
 
 .modal-content {
-    border-radius: 3%;
-    background-clip: border-box;
-    min-height: 2rem;
-    min-width: 2rem;
+  border-radius: 3%;
+  background-clip: border-box;
+  min-height: 2rem;
+  min-width: 2rem;
+}
+/*-------filler*/
+
+.filler2-container {
+  background-image: linear-gradient(to right, red, yellow, green);
+  height: 200px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
