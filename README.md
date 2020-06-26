@@ -3,31 +3,51 @@
 **Milestone Project 1: User-Centric Frontend Development - Code Institute**
 
 A website designed to provide information to users on how to grow chilli plants. Will also include a section on recommended chilli types with links to the related wikipedia pages.
-The user base will mostly be beginner growers looking to start their own plant.
+The userbase will mostly be beginner growers looking to start their own plant.
 
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+To make a responsive website for beginner chilli growers, that provides a guide and suggestions for what to grow. The general layout would be a single scrolling page with a navigation section to move to different points throughout the site.
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
+### User Stories
+
+- As a user, I want to be able to move around the site easily on mobile and desktop.
+- As a user, I want to have easy access to be able to access and navigate a guide.
+- As a user, I want to be able to sign up for future updates.
+- As a user, I want to see a variety of chillies I can choose.
+
+### Scope
+
+
+### Structure
+
+
+### Skeleton
+
+
+### Surface
+
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The website has 5 main sections:
+
+- A home section containing a navbar to help navigate the site.
+- A callout section containing the hero image and callout with a modal button that allows users to click and subscribe to updates.
+- A reasons sections detailing why the user should grow their own chillies.
+- A guide section that uses vertical pills and tab panes to present information in a easy way that saves space.
+- A gallery section that contains 6 (4 on mobile) different varieties of chillies that the user can get information on.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+- Feature 1 - Collapsible Navigation Bar, this allows the user to navigate the site with ease.
+- Feature 2 - Guide using tab pane, This allows the user to have access to a growing guide that doesn't require scrolling to see relevant information.
+- Feature 3 - Modal with button, This allows the user to submit their email and name to let the user sign up for future updates and news.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- Add a feature that remembers which tab they were on before leaving the page so they can continue from where they left off on the guide.
 
 ## Technologies Used
 
@@ -78,7 +98,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+All content was written by me.
+
+Images within the guide were taken by me.
 
 ### Media
 - The photos used in this site were obtained from ...
