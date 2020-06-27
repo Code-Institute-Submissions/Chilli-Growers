@@ -188,9 +188,34 @@ ul.tips > li::before {
 }
 /*-------filler sections*/
 
+.filler0-container {
+  background-color: red;
+  height: 76px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.filler1-container {
+  background-color: orangered;
+  height: 76px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
 .filler2-container {
+  background-color: green;
+  height: 76px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.filler3-container {
   background-image: linear-gradient(to right, red, yellow, green);
-  height: 50px;
+  height: 76px;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
