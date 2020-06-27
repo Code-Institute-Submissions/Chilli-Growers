@@ -101,10 +101,12 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 All content was written by me.
 
+Chilli descriptions adapted from [Pepper Scale](https://www.pepperscale.com/)
+
 Images within the guide were taken by me.
 
 ### Media
-- The photos used in this site were obtained from ...
+- Some photos were obtained from google images.
 
 ### Acknowledgements
 
