@@ -50,7 +50,12 @@ html {
 }
 
 .btn-custom {
-  background-color: rgb(167, 5, 5);
+  background-color: rgb(226, 45, 45);
+}
+
+.btn-custom:hover {
+  background-color: rgb(180, 0, 0);
+  color: #fafafa;
 }
 /*-----------------------------------------------------------Navbar*/
 #nav-brand-image {
@@ -99,7 +104,6 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
 }
-
 
 /*-----------------------------------------------------------------Callout*/
 
@@ -168,9 +172,6 @@ ul.tips > li::before {
   margin-right: auto;
 }
 /*-----------------------------------------------------------------Chilli Varieties*/
-#gallery {
-  padding-top: 15px;
-}
 
 .chillies {
   padding-bottom: 15px;
@@ -238,10 +239,34 @@ ul.tips > li::before {
 
 .footer-content {
   color: #fafafa;
+  padding-top: 5px;
 }
 
 .return a {
   text-decoration: underline;
-  font-size: 20px;
+  font-size: calc(10px + 0.6vw);
   color: black;
+}
+
+.about,
+.details {
+  line-height: 1.2;
+  font-size: calc(10px + 0.6vw);
+}
+
+
+/*-------------------------------------------------------------------------media queries*/
+
+@media (min-width: 1200px) {
+
+    #gallery {
+        height: 1250px;
+    }
+    .tab-pane p {
+        padding-left: 20vw;
+    }
+
+    .tab-pane ul, .tab-pane ol {
+        padding-left: 30vw;
+    }
 }
