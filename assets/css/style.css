@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
 
 body {
   font-family: "PT Sans", sans-serif;
@@ -8,6 +9,12 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+/*---------------------------------------------------------------Fonts*/
+
+.title {
+  font-family: "Balsamiq Sans", sans-serif;
+  color: black;
 }
 
 /*---------------------------------------------------------------Icons*/
@@ -42,13 +49,25 @@ html {
   background-color: orangered;
 }
 .filler-container--green {
-  background-color: green;
+  background-color: yellowgreen;
 }
-
 .filler-container--shu {
-  background-image: linear-gradient(to right, red, yellow, green);
+  background-image: linear-gradient(to left, red, yellow, green);
+}
+#reasons {
+  background-image: linear-gradient(red, orangered);
+  border-bottom: 2px solid black;
 }
 
+#gallery {
+  background-image: linear-gradient(yellowgreen, green);
+  border-bottom: 2px solid black;
+}
+
+#guide {
+  background-image: linear-gradient(orangered, yellowgreen);
+  border-bottom: 2px solid black;
+}
 .btn-custom {
   background-color: rgb(226, 45, 45);
 }
@@ -109,11 +128,11 @@ html {
 
 .callout {
   position: absolute;
-  top: 50%;
-  width: 35vw;
+  top: 41%;
+  width: 40vw;
   text-align: center;
   color: #fff;
-  left: 33%;
+  left: 31%;
   padding: 10px 10px;
   overflow: auto;
 }
@@ -127,6 +146,10 @@ html {
 }
 /*-----------------------------------------------------------------Reasons*/
 
+#reasons {
+  color: #fafafa;
+}
+
 /*-----------------------------------------------------------Growing Guide*/
 
 .nav-pills > a {
@@ -134,6 +157,7 @@ html {
   padding: 0.5rem 10px;
   color: rgb(0, 0, 0);
 }
+
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: rgb(0, 0, 0);
@@ -166,16 +190,20 @@ ul.tips > li::before {
   max-width: 100%;
   max-height: 100%;
   width: 300px;
-  padding: 10px;
+  padding: 0;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid;
+  box-shadow: 5px 5px;
+  margin-bottom: 10px;
 }
 /*-----------------------------------------------------------------Chilli Varieties*/
 
 .chillies {
   padding-bottom: 15px;
 }
+
 .chillies h3 a img {
   position: relative;
   height: 200px;
@@ -184,6 +212,9 @@ ul.tips > li::before {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 1px solid;
+  box-shadow: 5px 5px;
+  margin-bottom: 10px;
 }
 
 .chillies h3 {
@@ -191,7 +222,7 @@ ul.tips > li::before {
 }
 
 .chillies h3 a {
-  color: rgb(40, 110, 0);
+  color: rgb(0, 0, 0);
 }
 
 .chilli-info {
@@ -209,6 +240,10 @@ ul.tips > li::before {
 .personal-info-item .value {
   position: relative;
   width: 60%;
+}
+
+.value p {
+    margin-top: 2px;
 }
 
 .chilli-info .key,
@@ -254,19 +289,18 @@ ul.tips > li::before {
   font-size: calc(10px + 0.6vw);
 }
 
-
 /*-------------------------------------------------------------------------media queries*/
 
 @media (min-width: 1200px) {
+  #gallery {
+    height: 1157px;
+  }
+  .tab-pane p {
+    padding-left: 25vw;
+  }
 
-    #gallery {
-        height: 1157px;
-    }
-    .tab-pane p {
-        padding-left: 20vw;
-    }
-
-    .tab-pane ul, .tab-pane ol {
-        padding-left: 30vw;
-    }
+  .tab-pane ul,
+  .tab-pane ol {
+    padding-left: 28vw;
+  }
 }
