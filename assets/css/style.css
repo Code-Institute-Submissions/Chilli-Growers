@@ -260,7 +260,7 @@ ul.tips > li::before {
 @media (min-width: 1200px) {
 
     #gallery {
-        height: 1250px;
+        height: 1157px;
     }
     .tab-pane p {
         padding-left: 20vw;
