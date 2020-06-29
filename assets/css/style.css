@@ -10,7 +10,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/*---------Icons*/
+/*---------------------------------------------------------------Icons*/
 #seedling {
   color: greenyellow;
 }
@@ -23,17 +23,36 @@ html {
   color: red;
 }
 
-/*---------Backgrounds*/
+/*-----------------------------------------------------------Backgrounds*/
 .navbar,
 .navbar-collapse,
 .navbar-nav {
   background-color: rgb(9, 39, 122) !important;
 }
 
-.callout {  
- background-color: rgba(8, 202, 18, 0.7);
+.callout {
+  background-color: rgba(8, 202, 18, 0.7);
 }
-/*---------Navbar*/
+
+.filler-container--red {
+  background-color: red;
+}
+
+.filler-container--orange {
+  background-color: orangered;
+}
+.filler-container--green {
+  background-color: green;
+}
+
+.filler-container--shu {
+  background-image: linear-gradient(to right, red, yellow, green);
+}
+
+.btn-custom {
+  background-color: rgb(167, 5, 5);
+}
+/*-----------------------------------------------------------Navbar*/
 #nav-brand-image {
   height: 50px;
   right: 10px;
@@ -50,11 +69,10 @@ html {
 .nav-item > a:hover,
 .navbar > a:hover,
 .navbar > a:focus {
-  color: grey;
+  color: rgb(255, 0, 234);
 }
 .navbar-toggler {
-  border-radius: 2px;
-  border-color: red;
+  border: 3px solid red;
 }
 
 .navbar-toggler > i {
@@ -62,12 +80,17 @@ html {
   color: red;
 }
 
-.navbar button:focus {
-  border: 3px, black;
+.btn-custom {
+  color: #fafafa;
 }
-/*---------Hero image*/
 
-.callout-container {
+.navbar button:focus {
+  border: 3px solid orangered;
+  outline: none;
+}
+/*-------------------------------------------------------------Hero image*/
+
+.hero-image {
   background: url("../images/heroimage.jpg") no-repeat center center fixed;
   height: 100vh;
 
@@ -77,22 +100,30 @@ html {
   -o-background-size: cover;
 }
 
-/*---------Callout*/
+
+/*-----------------------------------------------------------------Callout*/
 
 .callout {
   position: absolute;
   top: 50%;
-  width: 40vw;
+  width: 35vw;
   text-align: center;
   color: #fff;
   left: 33%;
   padding: 10px 10px;
- font-size:10px;
   overflow: auto;
 }
-/*---------Reasons*/
 
-/*---------Growing Guide*/
+.callout p {
+  font-size: calc(15px + 1vw);
+}
+
+.callout i {
+  font-size: calc(10px + 0.5vw);
+}
+/*-----------------------------------------------------------------Reasons*/
+
+/*-----------------------------------------------------------Growing Guide*/
 
 .nav-pills > a {
   display: inline;
@@ -136,9 +167,13 @@ ul.tips > li::before {
   margin-left: auto;
   margin-right: auto;
 }
-/*---------Chilli Varieties*/
+/*-----------------------------------------------------------------Chilli Varieties*/
 #gallery {
-    padding-top: 15px;
+  padding-top: 15px;
+}
+
+.chillies {
+  padding-bottom: 15px;
 }
 .chillies h3 a img {
   position: relative;
@@ -154,31 +189,34 @@ ul.tips > li::before {
   text-decoration: underline;
 }
 
+.chillies h3 a {
+  color: rgb(40, 110, 0);
+}
+
 .chilli-info {
-    margin-bottom: 4px;
-    display: block;
-    clear: both;
+  margin-bottom: 4px;
+  display: block;
+  clear: both;
 }
 .chilli-info .key {
-    width: 30%;
-    margin-right: 21px;
-    padding-top: 2px;
-    vertical-align: top;
-    font-weight: bold;
+  margin-right: 9px;
+  padding-top: 2px;
+  vertical-align: top;
+  font-weight: bold;
 }
 
 .personal-info-item .value {
-    position: relative;
-    width: 60%;
+  position: relative;
+  width: 60%;
 }
 
-.chilli-info .key, .chilli-info .value {
-    padding-right: 8px;
-    display: inline-block;
+.chilli-info .key,
+.chilli-info .value {
+  padding-right: 8px;
+  display: inline-block;
 }
 
-
-/*---------Modal*/
+/*----------------------------------------------------------------------------------Modal*/
 
 .modal-content {
   border-radius: 3%;
@@ -186,10 +224,9 @@ ul.tips > li::before {
   min-height: 2rem;
   min-width: 2rem;
 }
-/*-------filler sections*/
+/*----------------------------------------------------------------------------------filler*/
 
-.filler0-container {
-  background-color: red;
+.filler-container {
   height: 76px;
   background-size: cover;
   -webkit-background-size: cover;
@@ -197,27 +234,14 @@ ul.tips > li::before {
   -o-background-size: cover;
 }
 
-.filler1-container {
-  background-color: orangered;
-  height: 76px;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+/*---------------------------------------------------------------------------------footer*/
+
+.footer-content {
+  color: #fafafa;
 }
-.filler2-container {
-  background-color: green;
-  height: 76px;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-.filler3-container {
-  background-image: linear-gradient(to right, red, yellow, green);
-  height: 76px;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+
+.return a {
+  text-decoration: underline;
+  font-size: 20px;
+  color: black;
 }
