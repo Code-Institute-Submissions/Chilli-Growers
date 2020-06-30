@@ -30,11 +30,15 @@ html {
   color: red;
 }
 
+#reasons i {
+  color: rgb(58, 223, 43);
+}
+
 /*-----------------------------------------------------------Backgrounds*/
 .navbar,
 .navbar-collapse,
 .navbar-nav {
-  background-color: rgb(9, 39, 122) !important;
+  background-color: rgb(26, 119, 173) !important;
 }
 
 .callout {
@@ -56,17 +60,14 @@ html {
 }
 #reasons {
   background-image: linear-gradient(red, orangered);
-  border-bottom: 2px solid black;
 }
 
 #gallery {
   background-image: linear-gradient(yellowgreen, green);
-  border-bottom: 2px solid black;
 }
 
 #guide {
   background-image: linear-gradient(orangered, yellowgreen);
-  border-bottom: 2px solid black;
 }
 .btn-custom {
   background-color: rgb(226, 45, 45);
@@ -147,7 +148,7 @@ html {
 /*-----------------------------------------------------------------Reasons*/
 
 #reasons {
-  color: #fafafa;
+  color: black;
 }
 
 /*-----------------------------------------------------------Growing Guide*/
@@ -198,6 +199,7 @@ ul.tips > li::before {
   box-shadow: 5px 5px;
   margin-bottom: 10px;
 }
+
 /*-----------------------------------------------------------------Chilli Varieties*/
 
 .chillies {
@@ -213,7 +215,7 @@ ul.tips > li::before {
   margin-left: auto;
   margin-right: auto;
   border: 1px solid;
-  box-shadow: 5px 5px;
+  box-shadow: 2px 2px;
   margin-bottom: 10px;
 }
 
@@ -243,13 +245,17 @@ ul.tips > li::before {
 }
 
 .value p {
-    margin-top: 2px;
+  margin-top: 2px;
 }
 
 .chilli-info .key,
 .chilli-info .value {
   padding-right: 8px;
   display: inline-block;
+}
+
+#note p {
+    margin-bottom: 0;
 }
 
 /*----------------------------------------------------------------------------------Modal*/
@@ -302,5 +308,8 @@ ul.tips > li::before {
   .tab-pane ul,
   .tab-pane ol {
     padding-left: 28vw;
+  }
+  .tab-pane {
+    border-left: 2px solid;
   }
 }

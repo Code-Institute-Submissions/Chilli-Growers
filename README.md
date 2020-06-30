@@ -9,8 +9,6 @@ The userbase will mostly be beginner growers looking to start their own plant.
  
 To make a responsive website for beginner chilli growers, that provides a guide and suggestions for what to grow. The general layout would be a single scrolling page with a navigation section to move to different points throughout the site.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
 ### User Stories
 
 - As a user, I want to be able to move around the site easily on mobile and desktop.
@@ -18,23 +16,34 @@ This section is also where you would share links to any wireframes, mockups, dia
 - As a user, I want to be able to sign up for future updates.
 - As a user, I want to see a variety of chillies I can choose.
 
+### Strategy
+
+To design a website that is easy to navigate and not overload the user with information by using tabs to compress the guide.
+
 ### Scope
 
+To provide the user with a basic guide and gallery section on how to get started growing chillies.
 
 ### Structure
 
+The site in structured in a way to give the user the relevant information in a way that it doesn't fill too much of the screen. At the bottom is a section to show the user recommendations on what to grow.
+A collapsible navigation is available for mobile users to get around the site.
 
 ### Skeleton
 
+Balsamiq was used the create the following wireframe:
+
+[Balsamiq Wireframe](https://github.com/bob134552/Chilli-Growers/tree/master/wireframe/Chilli-Growing-Website.pdf)
 
 ### Surface
 
+
+
 ## Features
 
-The website has 5 main sections:
+The website has 4 main sections:
 
-- A home section containing a navbar to help navigate the site.
-- A callout section containing the hero image and callout with a modal button that allows users to click and subscribe to updates.
+- A home section containing a navbar to help navigate the site and a callout with button to allow the user to sign up for updates.
 - A reasons sections detailing why the user should grow their own chillies.
 - A guide section that uses vertical pills and tab panes to present information in a easy way that saves space.
 - A gallery section that contains 6 (4 on mobile) different varieties of chillies that the user can get information on.
