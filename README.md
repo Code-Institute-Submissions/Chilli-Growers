@@ -9,35 +9,30 @@ The userbase will mostly be beginner growers looking to start their own plant.
  
 To make a responsive website for beginner chilli growers, that provides a guide and suggestions for what to grow. The general layout would be a single scrolling page with a navigation section to move to different points throughout the site.
 
+Balsamiq was used the create the following wireframe: [Balsamiq Wireframe](https://github.com/bob134552/Chilli-Growers/tree/master/wireframe/Chilli-Growing-Website.pdf)
+
+### The Strategy Plane
+
+
+### The Scope Plane
+
+
+### The Structure Plane
+
+
+### The Skeleton Plane
+
+
+### The Surface Plane
+
+
+
 ### User Stories
 
 - As a user, I want to be able to move around the site easily on mobile and desktop.
 - As a user, I want to have easy access to be able to access and navigate a guide.
 - As a user, I want to be able to sign up for future updates.
 - As a user, I want to see a variety of chillies I can choose.
-
-### Strategy
-
-To design a website that is easy to navigate and not overload the user with information by using tabs to compress the guide.
-
-### Scope
-
-To provide the user with a basic guide and gallery section on how to get started growing chillies.
-
-### Structure
-
-The site in structured in a way to give the user the relevant information in a way that it doesn't fill too much of the screen. At the bottom is a section to show the user recommendations on what to grow.
-A collapsible navigation is available for mobile users to get around the site.
-
-### Skeleton
-
-Balsamiq was used the create the following wireframe:
-
-[Balsamiq Wireframe](https://github.com/bob134552/Chilli-Growers/tree/master/wireframe/Chilli-Growing-Website.pdf)
-
-### Surface
-
-
 
 ## Features
 
@@ -61,7 +56,7 @@ The website has 4 main sections:
 ## Technologies Used
 
 - [Balsamiq](https://balsamiq.com/)
-    - For basic wireframe mockup.
+    - For a basic wireframe mockup.
 - [HTML](https://en.wikipedia.org/wiki/HTML)
     - To create the site.
 - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
@@ -115,7 +110,7 @@ Chilli descriptions adapted from [Pepper Scale](https://www.pepperscale.com/)
 Images within the guide were taken by me.
 
 ### Media
-- Some photos were obtained from google images.
+- Some photos were obtained from google images filtering by free license.
 
 ### Acknowledgements
 

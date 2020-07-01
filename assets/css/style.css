@@ -1,315 +1,327 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
 
 body {
-  font-family: "PT Sans", sans-serif;
-  padding: 0;
-  margin: 0;
+    font-family: "PT Sans", sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
 /*---------------------------------------------------------------Fonts*/
 
 .title {
-  font-family: "Balsamiq Sans", sans-serif;
-  color: black;
+    font-family: "Balsamiq Sans", sans-serif;
+    color: black;
 }
 
 /*---------------------------------------------------------------Icons*/
+
+#house {
+    color: #544599 !important;
+}
+
 #seedling {
-  color: greenyellow;
+    color: greenyellow;
 }
 
 #tint {
-  color: cyan;
+    color: cyan;
 }
 
 #pepper {
-  color: red;
+    color: red;
 }
 
 #reasons i {
-  color: rgb(58, 223, 43);
+    color: rgb(58, 223, 43);
+}
+
+.btn-custom {
+    background-color: rgb(26, 119, 173);
+}
+
+.btn-custom:hover {
+    background-color: rgb(180, 0, 0);
+    color: #fafafa;
 }
 
 /*-----------------------------------------------------------Backgrounds*/
 .navbar,
 .navbar-collapse,
 .navbar-nav {
-  background-color: rgb(26, 119, 173) !important;
+    background-color: rgb(26, 119, 173) !important;
 }
 
 .callout {
-  background-color: rgba(8, 202, 18, 0.7);
+    background-color: rgba(8, 202, 18, 0.7);
 }
 
 .filler-container--red {
-  background-color: red;
+    background-color: red;
 }
 
 .filler-container--orange {
-  background-color: orangered;
+    background-color: orangered;
 }
+
 .filler-container--green {
-  background-color: yellowgreen;
+    background-color: yellowgreen;
 }
+
 .filler-container--shu {
-  background-image: linear-gradient(to left, red, yellow, green);
-}
-#reasons {
-  background-image: linear-gradient(red, orangered);
+    background-image: linear-gradient(to left, red, yellow, green);
 }
 
-#gallery {
-  background-image: linear-gradient(yellowgreen, green);
-}
-
-#guide {
-  background-image: linear-gradient(orangered, yellowgreen);
-}
-.btn-custom {
-  background-color: rgb(226, 45, 45);
-}
-
-.btn-custom:hover {
-  background-color: rgb(180, 0, 0);
-  color: #fafafa;
-}
 /*-----------------------------------------------------------Navbar*/
+
 #nav-brand-image {
-  height: 50px;
-  right: 10px;
-}
-.navbar > a {
-  color: #fafafa;
-  font-weight: bold;
-}
-.nav-item > a {
-  font-weight: bold;
-  color: #fafafa;
-}
-.nav-item > a:focus,
-.nav-item > a:hover,
-.navbar > a:hover,
-.navbar > a:focus {
-  color: rgb(255, 0, 234);
-}
-.navbar-toggler {
-  border: 3px solid red;
+    height: 50px;
+    right: 10px;
 }
 
-.navbar-toggler > i {
-  padding-top: 3px;
-  color: red;
+.navbar>a {
+    color: #fafafa;
+    font-weight: bold;
+}
+
+.nav-item>a {
+    font-weight: bold;
+    color: #fafafa;
+}
+
+.nav-item>a:focus,
+.nav-item>a:hover,
+.navbar>a:hover,
+.navbar>a:focus {
+    color: rgb(255, 0, 234);
+}
+
+.navbar-toggler {
+    border: 3px solid red;
+}
+
+.navbar-toggler>i {
+    padding-top: 3px;
+    color: red;
 }
 
 .btn-custom {
-  color: #fafafa;
+    color: #fafafa;
 }
 
 .navbar button:focus {
-  border: 3px solid orangered;
-  outline: none;
+    border: 3px solid orangered;
+    outline: none;
 }
+
 /*-------------------------------------------------------------Hero image*/
 
 .hero-image {
-  background: url("../images/heroimage.jpg") no-repeat center center fixed;
-  height: 100vh;
-
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+    background: url("../images/heroimage.jpg") no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 /*-----------------------------------------------------------------Callout*/
 
 .callout {
-  position: absolute;
-  top: 41%;
-  width: 40vw;
-  text-align: center;
-  color: #fff;
-  left: 31%;
-  padding: 10px 10px;
-  overflow: auto;
+    position: absolute;
+    top: 41%;
+    width: 40vw;
+    text-align: center;
+    color: #fff;
+    left: 31%;
+    padding: 10px 10px;
+    overflow: auto;
 }
 
 .callout p {
-  font-size: calc(15px + 1vw);
+    font-size: calc(15px + 1vw);
 }
 
 .callout i {
-  font-size: calc(10px + 0.5vw);
+    font-size: calc(10px + 0.5vw);
 }
+
 /*-----------------------------------------------------------------Reasons*/
 
 #reasons {
-  color: black;
+    color: black;
 }
 
 /*-----------------------------------------------------------Growing Guide*/
 
-.nav-pills > a {
-  display: inline;
-  padding: 0.5rem 10px;
-  color: rgb(0, 0, 0);
+.nav-pills>a {
+    display: inline;
+    padding: 0.5rem 10px;
+    color: rgb(0, 0, 0);
 }
 
 .nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  color: rgb(0, 0, 0);
-  background-color: rgb(58, 223, 43);
-  border: 2px solid black;
+.nav-pills .show>.nav-link {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
 }
 
-.tab-content > .tab-pane {
-  padding-left: 3rem;
+.tab-content>.tab-pane {
+    padding-left: 3rem;
 }
 
 ul.equipment {
-  list-style: none; /* Removes HTML bullets */
+    list-style: none;
 }
 
-ul.equipment > li::before {
-  content: "✔ "; /* Inserts content that looks like bullets */
-  color: red;
+ul.equipment>li::before {
+    content: "✔ ";
+    color: red;
 }
+
 ul.tips {
-  list-style: none;
+    list-style: none;
 }
 
-ul.tips > li::before {
-  content: "➤";
+ul.tips>li::before {
+    content: "➤";
 }
 
-.tab-pane > img {
-  height: 50%;
-  max-width: 100%;
-  max-height: 100%;
-  width: 300px;
-  padding: 0;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid;
-  box-shadow: 5px 5px;
-  margin-bottom: 10px;
+.tab-pane>img {
+    height: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    width: 300px;
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    box-shadow: 5px 5px;
+    margin-bottom: 10px;
 }
 
 /*-----------------------------------------------------------------Chilli Varieties*/
 
 .chillies {
-  padding-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 .chillies h3 a img {
-  position: relative;
-  height: 200px;
-  max-width: 100%;
-  width: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid;
-  box-shadow: 2px 2px;
-  margin-bottom: 10px;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    object-fit: fill;
 }
 
 .chillies h3 {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .chillies h3 a {
-  color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 .chilli-info {
-  margin-bottom: 4px;
-  display: block;
-  clear: both;
+    margin-bottom: 4px;
+    display: block;
+    clear: both;
 }
+
 .chilli-info .key {
-  margin-right: 9px;
-  padding-top: 2px;
-  vertical-align: top;
-  font-weight: bold;
+    margin-right: 9px;
+    padding-top: 2px;
+    vertical-align: top;
+    font-weight: bold;
 }
 
 .personal-info-item .value {
-  position: relative;
-  width: 60%;
+    position: relative;
+    width: 60%;
 }
 
 .value p {
-  margin-top: 2px;
+    margin-top: 2px;
 }
 
 .chilli-info .key,
 .chilli-info .value {
-  padding-right: 8px;
-  display: inline-block;
+    padding-right: 8px;
+    display: inline-block;
 }
 
 #note p {
     margin-bottom: 0;
+    padding-bottom: 15px;
 }
 
 /*----------------------------------------------------------------------------------Modal*/
 
 .modal-content {
-  border-radius: 3%;
-  background-clip: border-box;
-  min-height: 2rem;
-  min-width: 2rem;
+    border-radius: 3%;
+    background-clip: border-box;
+    min-height: 2rem;
+    min-width: 2rem;
 }
+
 /*----------------------------------------------------------------------------------filler*/
 
 .filler-container {
-  height: 76px;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+    height: 76px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 /*---------------------------------------------------------------------------------footer*/
 
 .footer-content {
-  color: #fafafa;
-  padding-top: 5px;
+    color: #fafafa;
+    padding-top: 5px;
 }
 
 .return a {
-  text-decoration: underline;
-  font-size: calc(10px + 0.6vw);
-  color: black;
+    text-decoration: underline;
+    font-size: calc(10px + 0.6vw);
+    color: black;
 }
 
 .about,
 .details {
-  line-height: 1.2;
-  font-size: calc(10px + 0.6vw);
+    line-height: 1.2;
+    font-size: calc(10px + 0.6vw);
 }
 
 /*-------------------------------------------------------------------------media queries*/
 
 @media (min-width: 1200px) {
-  #gallery {
-    height: 1157px;
-  }
-  .tab-pane p {
-    padding-left: 25vw;
-  }
+    #gallery {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
 
-  .tab-pane ul,
-  .tab-pane ol {
-    padding-left: 28vw;
-  }
-  .tab-pane {
-    border-left: 2px solid;
-  }
+    #guide {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+
+    #reasons {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+
+    .tab-pane {
+        border-left: 2px solid;
+    }
 }
