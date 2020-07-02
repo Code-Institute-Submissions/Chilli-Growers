@@ -12,14 +12,15 @@ html {
     scroll-behavior: smooth;
 }
 
-/*---------------------------------------------------------------Fonts*/
+/*-----------------------------Fonts----------------------------------*/
 
 .title {
     font-family: "Balsamiq Sans", sans-serif;
     color: black;
 }
 
-/*---------------------------------------------------------------Icons*/
+/*-----------------------------Icons----------------------------------*/
+
 
 #house {
     color: #544599 !important;
@@ -50,7 +51,7 @@ html {
     color: #fafafa;
 }
 
-/*-----------------------------------------------------------Backgrounds*/
+/*-------------------------Backgrounds----------------------------------*/
 .navbar,
 .navbar-collapse,
 .navbar-nav {
@@ -77,7 +78,7 @@ html {
     background-image: linear-gradient(to left, red, yellow, green);
 }
 
-/*-----------------------------------------------------------Navbar*/
+/*---------------------------Navbar--------------------------------*/
 
 #nav-brand-image {
     height: 50px;
@@ -119,7 +120,7 @@ html {
     outline: none;
 }
 
-/*-------------------------------------------------------------Hero image*/
+/*-------------------------------Hero image------------------------------*/
 
 .hero-image {
     background: url("../images/heroimage.jpg") no-repeat center center fixed;
@@ -130,7 +131,7 @@ html {
     -o-background-size: cover;
 }
 
-/*-----------------------------------------------------------------Callout*/
+/*-------------------------------Callout----------------------------------*/
 
 .callout {
     position: absolute;
@@ -151,18 +152,29 @@ html {
     font-size: calc(10px + 0.5vw);
 }
 
-/*-----------------------------------------------------------------Reasons*/
+/*--------------------------------Reasons---------------------------------*/
 
 #reasons {
     color: black;
 }
 
-/*-----------------------------------------------------------Growing Guide*/
+/*--------------------------------Growing Guide---------------------------*/
 
-.nav-pills>a {
+.nav-pills {
+    margin-top: 15px;
+}
+
+.nav-pills > a {
     display: inline;
-    padding: 0.5rem 10px;
     color: rgb(0, 0, 0);
+}
+
+.pills {
+    padding-right: 0;
+}
+
+.content {
+    padding-left: 0;
 }
 
 .nav-pills .nav-link.active,
@@ -172,15 +184,15 @@ html {
     border: 2px solid black;
 }
 
-.tab-content>.tab-pane {
-    padding-left: 3rem;
+.tab-content > .tab-pane {
+    padding-left: 2rem;
 }
 
 ul.equipment {
     list-style: none;
 }
 
-ul.equipment>li::before {
+ul.equipment > li::before {
     content: "✔ ";
     color: red;
 }
@@ -189,16 +201,16 @@ ul.tips {
     list-style: none;
 }
 
-ul.tips>li::before {
+ul.tips > li::before {
     content: "➤";
 }
 
-.tab-pane>img {
+.tab-pane > img {
     height: 50%;
     max-width: 100%;
     max-height: 100%;
     width: 300px;
-    padding: 0;
+    margin-top: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -207,7 +219,8 @@ ul.tips>li::before {
     margin-bottom: 10px;
 }
 
-/*-----------------------------------------------------------------Chilli Varieties*/
+
+/*----------------------------------Chilli Varieties-------------------------------*/
 
 .chillies {
     padding-bottom: 15px;
@@ -265,7 +278,7 @@ ul.tips>li::before {
     padding-bottom: 15px;
 }
 
-/*----------------------------------------------------------------------------------Modal*/
+/*----------------------------------------Modal------------------------------------------*/
 
 .modal-content {
     border-radius: 3%;
@@ -274,7 +287,7 @@ ul.tips>li::before {
     min-width: 2rem;
 }
 
-/*----------------------------------------------------------------------------------filler*/
+/*----------------------------------------filler------------------------------------------*/
 
 .filler-container {
     height: 76px;
@@ -284,7 +297,7 @@ ul.tips>li::before {
     -o-background-size: cover;
 }
 
-/*---------------------------------------------------------------------------------footer*/
+/*-----------------------------------------footer----------------------------------------*/
 
 .footer-content {
     color: #fafafa;
@@ -303,25 +316,15 @@ ul.tips>li::before {
     font-size: calc(10px + 0.6vw);
 }
 
-/*-------------------------------------------------------------------------media queries*/
+/*----------------------------------------media queries---------------------------------*/
 
 @media (min-width: 1200px) {
-    #gallery {
+    #gallery, #reasons, #guide {
         padding-left: 7rem;
         padding-right: 7rem;
     }
 
-    #guide {
-        padding-left: 7rem;
-        padding-right: 7rem;
-    }
-
-    #reasons {
-        padding-left: 7rem;
-        padding-right: 7rem;
-    }
-
-    .tab-pane {
+    .tab-content {
         border-left: 2px solid;
     }
 }

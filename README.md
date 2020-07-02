@@ -1,26 +1,32 @@
-# Chilli Growers.
-
 **Milestone Project 1: User-Centric Frontend Development - Code Institute**
+
+# Chilli Growers.
 
 A website designed to provide information to users on how to grow chilli plants. Will also include a section on recommended chilli types with links to the related wikipedia pages.
 The userbase will mostly be beginner growers looking to start their own plant.
 
 ## UX
  
-To make a responsive website for beginner chilli growers, that provides a guide and suggestions for what to grow. The general layout would be a single scrolling page with a navigation section to move to different points throughout the site.
+To make a responsive website for beginner chilli growers, that provides a guide and suggestions for what to grow. 
+
 
 Balsamiq was used the create the following wireframe: [Balsamiq Wireframe](https://github.com/bob134552/Chilli-Growers/tree/master/wireframe/Chilli-Growing-Website.pdf)
 
 ### The Strategy Plane
 
+To create a site with the goal to guide and assist a user looking to begin growing chilli plants.
+The immediate needs would be a guide and a variety of options available for the user.
 
 ### The Scope Plane
 
+The site's requirement will be to inform and educate the user in a simple manner such that it doesn't feel like they are being overloaded with information.
 
 ### The Structure Plane
 
+The general layout would be a single scrolling page with a navigation section to move to different points throughout the site.
 
 ### The Skeleton Plane
+
 
 
 ### The Surface Plane
@@ -30,7 +36,7 @@ Balsamiq was used the create the following wireframe: [Balsamiq Wireframe](https
 ### User Stories
 
 - As a user, I want to be able to move around the site easily on mobile and desktop.
-- As a user, I want to have easy access to be able to access and navigate a guide.
+- As a user, I want to have easy access to a guide that is simple to interact with.
 - As a user, I want to be able to sign up for future updates.
 - As a user, I want to see a variety of chillies I can choose.
 
@@ -65,6 +71,8 @@ The website has 4 main sections:
     - To simplify DOM manipulation.
 - [Bootstrap](https://getbootstrap.com/)
     - For better responsiveness.
+- [Font Awesome]()
+    - To add icons to navbar and reasons section.
 
 
 ## Testing
