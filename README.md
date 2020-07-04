@@ -176,7 +176,9 @@ scaling down too much.
 
 # Deployment
 
-The project was deployed through Github pages, from the master branch. Additionally the site will be updated after any git push to the master branch.
+The project was deployed through Github pages, from the master branch, and can be found [here](https://bob134552.github.io/Chilli-Growers/). 
+
+Additionally the site will be updated after any git push to the master branch.
 
 
 ### How to run code locally.
