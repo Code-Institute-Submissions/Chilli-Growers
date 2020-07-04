@@ -3,328 +3,317 @@
 @import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
 
 body {
-    font-family: "PT Sans", sans-serif;
-    padding: 0;
-    margin: 0;
+  font-family: "PT Sans", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-/*-----------------------------Fonts----------------------------------*/
+/*-----------------------------Fonts and Colors----------------------------------*/
 
 .title {
-    font-family: "Balsamiq Sans", sans-serif;
-    color: black;
+  font-family: "Balsamiq Sans", sans-serif;
+  color: black;
+}
+
+.navbar > a,
+.nav-item > a {
+  color: #fafafa;
+  font-weight: bold;
+}
+
+.btn-custom {
+  color: #fafafa;
+}
+
+.chillies h3 a {
+  color: rgb(0, 0, 0);
 }
 
 /*-----------------------------Icons----------------------------------*/
 
-
 #house {
-    color: #544599 !important;
+  color: #e2cc07;
 }
 
 #seedling {
-    color: greenyellow;
+  color: greenyellow;
 }
 
 #tint {
-    color: cyan;
+  color: cyan;
 }
 
 #pepper {
-    color: red;
+  color: red;
 }
 
 #reasons i {
-    color: rgb(58, 223, 43);
+  color: rgb(58, 223, 43);
 }
 
 .btn-custom {
-    background-color: rgb(26, 119, 173);
+  background-color: rgb(26, 119, 173);
 }
 
 .btn-custom:hover {
-    background-color: rgb(180, 0, 0);
-    color: #fafafa;
+  background-color: rgb(180, 0, 0);
+  color: #fafafa;
 }
 
 /*-------------------------Backgrounds----------------------------------*/
+
 .navbar,
 .navbar-collapse,
 .navbar-nav {
-    background-color: rgb(26, 119, 173) !important;
+  background-color: rgb(26, 119, 173);
 }
 
 .callout {
-    background-color: rgba(8, 202, 18, 0.7);
+  background-color: rgba(8, 202, 18, 0.7);
 }
 
-.filler-container--red {
-    background-color: red;
+.banner-container--red {
+  background-color: red;
 }
 
-.filler-container--orange {
-    background-color: orangered;
+.banner-container--orange {
+  background-color: orangered;
 }
 
-.filler-container--green {
-    background-color: yellowgreen;
+.banner-container--green {
+  background-color: green;
 }
 
-.filler-container--shu {
-    background-image: linear-gradient(to left, red, yellow, green);
+.banner-container--shu {
+  background-image: linear-gradient(to left, red, yellow, green);
 }
 
 /*---------------------------Navbar--------------------------------*/
 
 #nav-brand-image {
-    height: 50px;
-    right: 10px;
+  height: 50px;
+  right: 10px;
 }
 
-.navbar>a {
-    color: #fafafa;
-    font-weight: bold;
-}
-
-.nav-item>a {
-    font-weight: bold;
-    color: #fafafa;
-}
-
-.nav-item>a:focus,
-.nav-item>a:hover,
-.navbar>a:hover,
-.navbar>a:focus {
-    color: rgb(255, 0, 234);
+.nav-item > a:focus,
+.nav-item > a:hover,
+.navbar > a:hover,
+.navbar > a:focus {
+  color: rgb(255, 0, 234);
 }
 
 .navbar-toggler {
-    border: 3px solid red;
+  border: 3px solid red;
 }
 
-.navbar-toggler>i {
-    padding-top: 3px;
-    color: red;
-}
-
-.btn-custom {
-    color: #fafafa;
+.navbar-toggler > i {
+  padding-top: 3px;
+  color: red;
 }
 
 .navbar button:focus {
-    border: 3px solid orangered;
-    outline: none;
+  border: 3px solid orangered;
+  outline: none;
 }
 
 /*-------------------------------Hero image------------------------------*/
 
 .hero-image {
-    background: url("../images/heroimage.jpg") no-repeat center center fixed;
-    height: 100vh;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  background: url("../images/heroimage.jpg") no-repeat center center fixed;
+  height: 100vh;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 /*-------------------------------Callout----------------------------------*/
 
 .callout {
-    position: absolute;
-    top: 41%;
-    width: 40vw;
-    text-align: center;
-    color: #fff;
-    left: 31%;
-    padding: 10px 10px;
-    overflow: auto;
+  position: absolute;
+  top: 41%;
+  width: 40vw;
+  text-align: center;
+  color: #fff;
+  left: 31%;
+  padding: 10px 10px;
+  overflow: auto;
 }
 
 .callout p {
-    font-size: calc(15px + 1vw);
+  font-size: calc(15px + 1vw);
 }
 
 .callout i {
-    font-size: calc(10px + 0.5vw);
+  font-size: calc(10px + 0.5vw);
 }
 
 /*--------------------------------Reasons---------------------------------*/
 
 #reasons {
-    color: black;
+  color: black;
 }
 
 /*--------------------------------Growing Guide---------------------------*/
 
 .nav-pills {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .nav-pills > a {
-    display: inline;
-    color: rgb(0, 0, 0);
+  display: inline;
+  color: rgb(0, 0, 0);
+  padding: 5px 5px;
 }
 
 .pills {
-    padding-right: 0;
+  padding-right: 0;
 }
 
 .content {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    border: 2px solid black;
+.nav-pills .show > .nav-link {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
 }
 
-.tab-content > .tab-pane {
-    padding-left: 2rem;
+.tab-content .tab-pane {
+  padding-left: 2rem;
 }
 
-ul.equipment {
-    list-style: none;
-}
-
-ul.equipment > li::before {
-    content: "✔ ";
-    color: red;
-}
-
+ul.equipment,
 ul.tips {
-    list-style: none;
+  list-style: none;
 }
 
-ul.tips > li::before {
-    content: "➤";
+ul.equipment li::before {
+  content: "✔ ";
+  color: red;
 }
 
-.tab-pane > img {
-    height: 50%;
-    max-width: 100%;
-    max-height: 100%;
-    width: 300px;
-    margin-top: 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid;
-    box-shadow: 5px 5px;
-    margin-bottom: 10px;
+ul.tips li::before {
+  content: "➤";
 }
 
+.tab-pane img {
+  height: 50%;
+  width: 300px;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  border: 1px solid;
+  box-shadow: 5px 5px 5px grey;
+  margin: 15px auto 10px auto;
+}
 
 /*----------------------------------Chilli Varieties-------------------------------*/
 
 .chillies {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .chillies h3 a img {
-    position: relative;
-    height: 400px;
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    object-fit: fill;
+  position: relative;
+  height: 400px;
+  width: 100%;
+  display: block;
+  margin: 0 auto 10px auto;
+  object-fit: fill;
 }
 
 .chillies h3 {
-    text-decoration: underline;
-}
-
-.chillies h3 a {
-    color: rgb(0, 0, 0);
+  text-decoration: underline;
 }
 
 .chilli-info {
-    margin-bottom: 4px;
-    display: block;
-    clear: both;
+  margin-bottom: 4px;
+  display: block;
+  clear: both;
 }
 
 .chilli-info .key {
-    margin-right: 9px;
-    padding-top: 2px;
-    vertical-align: top;
-    font-weight: bold;
+  margin-right: 9px;
+  padding-top: 2px;
+  vertical-align: top;
+  font-weight: bold;
 }
 
 .personal-info-item .value {
-    position: relative;
-    width: 60%;
+  position: relative;
+  width: 60%;
 }
 
 .value p {
-    margin-top: 2px;
+  margin-top: 2px;
 }
 
 .chilli-info .key,
 .chilli-info .value {
-    padding-right: 8px;
-    display: inline-block;
+  padding-right: 8px;
+  display: inline-block;
 }
 
 #note p {
-    margin-bottom: 0;
-    padding-bottom: 15px;
+  margin-bottom: 0;
+  padding-bottom: 15px;
 }
 
 /*----------------------------------------Modal------------------------------------------*/
 
 .modal-content {
-    border-radius: 3%;
-    background-clip: border-box;
-    min-height: 2rem;
-    min-width: 2rem;
+  border-radius: 2%;
+  background-clip: border-box;
+  min-height: 2rem;
+  min-width: 2rem;
 }
 
-/*----------------------------------------filler------------------------------------------*/
+/*----------------------------------------banner------------------------------------------*/
 
-.filler-container {
-    height: 76px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+.banner-container {
+  height: 76px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 /*-----------------------------------------footer----------------------------------------*/
 
 .footer-content {
-    color: #fafafa;
-    padding-top: 5px;
+  color: #fafafa;
+  padding-top: 5px;
 }
 
 .return a {
-    text-decoration: underline;
-    font-size: calc(10px + 0.6vw);
-    color: black;
+  text-decoration: underline;
+  font-size: calc(10px + 0.6vw);
+  color: black;
 }
 
 .about,
 .details {
-    line-height: 1.2;
-    font-size: calc(10px + 0.6vw);
+  line-height: 1.2;
+  font-size: calc(10px + 0.6vw);
 }
 
 /*----------------------------------------media queries---------------------------------*/
 
 @media (min-width: 1200px) {
-    #gallery, #reasons, #guide {
-        padding-left: 7rem;
-        padding-right: 7rem;
-    }
+  #gallery,
+  #reasons,
+  #guide {
+    padding: 0 7rem;
+  }
 
-    .tab-content {
-        border-left: 2px solid;
-    }
+  .tab-content {
+    border-left: 2px solid;
+  }
 }
