@@ -2,7 +2,7 @@
 
 # Chilli Growers.
 
-A website designed to provide information to users on how to grow chilli plants. Will also include a section on recommended chilli types with links to the related wikipedia pages.
+A website designed to provide information to users on how to grow chilli plants. The website will include a section on recommended chilli types with links to the related wikipedia pages.
 The userbase will mostly be beginner growers looking to start their own plant.
 
 # UX
@@ -11,11 +11,11 @@ To make a responsive website for beginner chilli growers, that provides a guide 
 
 The initial idea was hand drawn:
 
-[Hand Drawn Wireframe](https://github.com/bob134552/Chilli-Growers/tree/master/wireframe/Initial-Hand-Drawn-Wireframe.pdf)
+[Original Hand Drawn Wireframe](https://github.com/bob134552/Chilli-Growers/tree/master/wireframe/initial-hand-drawn-wireframe.pdf)
 
-Balsamiq was used the create the following wireframe:
+Balsamiq was used to create the following wireframe:
 
-[Balsamiq Mobile and Desktop Wireframe](https://github.com/bob134552/Chilli-Growers/tree/master/wireframe/Chilli-Growing-Website.pdf)
+[Balsamiq Mobile and Desktop Wireframe](https://github.com/bob134552/Chilli-Growers/tree/master/wireframe/chilli-growing-website.pdf)
 
 ## The Strategy Plane
 
@@ -47,7 +47,7 @@ The skeleton of the site was designed using Balsamiq and can be found in the lin
 The project is a single scrolling page which has a full veiw height image with a callout and button that opens a modal for the user to subscribe with.
 The navigation bar is set to the top of the page and is always available for the user to be able to move around the page with ease.
 
-The site is split up into 3 main sections which are in an order from what the user should see first into finally showing them a gallery of which they can make a choice from.
+The site is split up into 3 main sections which are ordered as follows from reasons to grow into finally showing them a gallery of which they can make a choice from.
 
 After a look at different guide and garden store sites the font "PT Sans" was chosen as it looked like a good fit for a guide site and
 "Balsamiq Sans" for titles complimented the body font.
@@ -156,7 +156,7 @@ this was fixed by using the "[calc](https://www.w3schools.com/cssref/func_calc.a
 
 ## Navbar transparency
 
-During the styling of the navbar, I unable to find a way to make the background transparent as when the opacity of the background was set it would turn white.
+During the styling of the navbar, I was unable to find a way to make the background transparent as when the opacity of the background was set it would turn white.
 
 ## Validaton and Beautify
 
@@ -176,7 +176,7 @@ scaling down too much.
 
 # Deployment
 
-The project was deployed through Github pages, from the master branch, and can be found [here](https://bob134552.github.io/Chilli-Growers/). 
+The project was deployed through Github pages, from the master branch, and a live version of the site can be found [here](https://bob134552.github.io/Chilli-Growers/). 
 
 Additionally the site will be updated after any git push to the master branch.
 
@@ -200,5 +200,6 @@ Chilli descriptions adapted from [Pepper Scale](https://www.pepperscale.com/)
 
 ## Acknowledgements
 
+- My parents and brothers for help testing the site and suggestions to grammar and spelling.
 - My wife for suggestions on what content to add and help in color co-ordination.
 - My mentor for suggesting making a single page site instead of multiple pages.
