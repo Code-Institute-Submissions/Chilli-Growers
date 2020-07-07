@@ -3,11 +3,11 @@
 # Chilli Growers.
 
 A website designed to provide information to users on how to grow chilli plants. The website will include a section on recommended chilli types with links to the related wikipedia pages.
-The userbase will mostly be beginner growers looking to start their own plant.
+The userbase will mostly be beginners looking to grow their own plant.
 
 # UX
 
-To make a responsive website for beginner chilli growers, that provides a guide and suggestions for what to grow.
+To make a responsive website for beginner chilli growers that provides a guide and suggestions for what to grow.
 
 The initial idea was hand drawn:
 
@@ -24,14 +24,14 @@ The immediate needs would be a guide and provide a variety of options available 
 
 ## The Scope Plane
 
-The site's requirement will be to inform and educate the user in a simple manner such that it doesn't feel like they are being overloaded with information.
+The site's requirement will be to inform and educate the user in a simple manner such that it doesn't feel like they are being overwhelmed with information.
 To acheive this a guide using tabs to display different information is used along with a gallery to display choices for the user.
 
 In short what is required:
 
+- A Callout
 - A Guide
 - A Gallery
-- A Callout
 
 ## The Structure Plane
 
@@ -47,34 +47,34 @@ The skeleton of the site was designed using Balsamiq and can be found in the lin
 The project is a single scrolling page which has a full veiw height image with a callout and button that opens a modal for the user to subscribe with.
 The navigation bar is set to the top of the page and is always available for the user to be able to move around the page with ease.
 
-The site is split up into 3 main sections which are ordered as follows from reasons to grow into finally showing them a gallery of which they can make a choice from.
+The site is split up into 3 main sections which are ordered as follows from reasons to grow into finally showing them a gallery of which they can view recommended chillies to grow.
 
-After a look at different guide and garden store sites the font "PT Sans" was chosen as it looked like a good fit for a guide site and
+After a look at different guides and garden store sites the font "PT Sans" was chosen as it looked like a good fit for a guide site and
 "Balsamiq Sans" for titles complimented the body font.
 
-Each banners color before each section was chosen to represent the [Scoville Scale](https://en.wikipedia.org/wiki/Scoville_scale) beginning from green to red.
+Each banner's color before each section was chosen to represent the [Scoville Scale](https://en.wikipedia.org/wiki/Scoville_scale) beginning from green to red.
 
 ## User Stories
 
 - As a user, I want to be able to move around the site easily on mobile and desktop.
 - As a user, I want to have easy access to a guide that is simple to interact with.
-- As a user, I want to be able to sign up for future updates.
+- As a user, I want to be able to subscribe for future updates.
 - As a user, I want to see a variety of chillies I can choose and see infromation on.
 
 # Features
 
 The website has 4 main sections:
 
-- A home section containing a navbar to help navigate the site and a callout with button to allow the user to sign up for updates.
-- A reasons sections detailing why the user should grow their own chillies.
-- A guide section that uses vertical pills and tab panes to present information in a easy way that saves space.
-- A gallery section that contains 6 (4 on mobile) different varieties of chillies that the user can get information on.
+- A "home section" containing a navbar to help navigate the site and a callout with button to allow the user to sign up for updates.
+- A "reasons section" detailing why the user should grow their own chillies.
+- A "guide section" that uses vertical pills and tab panes to present information in a easy way that saves space.
+- A "gallery section" that contains 6 (4 on mobile) different varieties of chillies that the user can get information on.
 
 ## Existing Features
 
 - Feature 1 - Collapsible Navigation Bar, this allows the user to navigate the site with ease.
-- Feature 2 - Guide using tab pane, This allows the user to have access to a growing guide that doesn't require scrolling to see relevant information.
-- Feature 3 - Modal with button, This allows the user to submit their email and name to let the user sign up for future updates and news.
+- Feature 2 - Guide using tab pane, this allows the user to have access to a growing guide that doesn't require scrolling to see relevant information.
+- Feature 3 - Modal with button, this allows the user to submit their email and name to let the user sign up for future updates and news.
 
 ## Features Left to Implement
 
@@ -99,9 +99,13 @@ The website has 4 main sections:
 
 # Testing
 
-The site was tested on several devices to ensure responsiveness throughout. 
+The site was tested on several devices and browsers to ensure responsiveness throughout. 
 
-Devices included: Samsung Galaxy S10+, iPhone X, Samsung Galaxy Tab A, Desktop PC (custom built) and MacBook Air.
+Browsers: Chrome, Microsoft Edge and Safari
+
+Devices included: Samsung Galaxy S10+, iPhone X, Samsung Galaxy Tab A, Desktop PC and MacBook Air.
+
+It was noticed that the smooth scrolling was not available on Safari.
 
 ## Testing based on user stories:
 
@@ -109,13 +113,14 @@ Devices included: Samsung Galaxy S10+, iPhone X, Samsung Galaxy Tab A, Desktop P
 
 1. Clicking on each part of the navigation bar allows the user to move to different parts of the site.
 
-   1. Click on chilli growers on navbar, nothing happens when at the top of the site but returns to top if on other parts of site.
+   1. Click on chilli growers or brand image on navbar, nothing happens when at the top of the site but returns to top if on other parts of site.
    2. Click on Why Grow? scrolls the site down to the reasons section.
    3. Click on Growing Guide scrolls the site to the guide section.
 
 2. In mobile view the navigation bar will collapse into a toggle button that can be used to move around the site also.
    1. Clicking on the toggler expands the navbar.
-   2. Clicking on each link brings the respective section into view.
+   2. Clicking on the toggler again returns navar to normal.
+   3. Clicking on each link brings the respective section into view.
 
 ## As a user, I want to have easy access to a guide that is simple to interact with.
 
@@ -123,7 +128,7 @@ Devices included: Samsung Galaxy S10+, iPhone X, Samsung Galaxy Tab A, Desktop P
    1. Clicking on each tab changes the information that is displayed.
    2. Clicking on each tab shows which tab pane is open, indicated by a black border around the tab.
 
-## As a user, I want to be able to sign up for future updates.
+## As a user, I want to be able to subscribe for future updates.
 
 1. Subscribe button and modal.
    1. Try to click on subscribe button opens a modal asking for users first name and email.
@@ -147,7 +152,7 @@ This was fixed by adding in a banner of equal height to the navbar before each s
 
 ## Images not fitting within their respective containers.
 
-Images in the gallery section would not fill the container they were in, this was resolived by using the CSS: object-fit: contain.
+Images in the gallery section would not fill the container they were in, this was resolived by using the CSS rule: object-fit: contain.
 
 ## Fonts not scaling down on smaller screens.
 
