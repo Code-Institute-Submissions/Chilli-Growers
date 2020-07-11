@@ -11,8 +11,13 @@ body {
 html {
   scroll-behavior: smooth;
 }
+/*-----------------------------Containers----------------------------------*/
 
-/*-----------------------------Fonts and Colors----------------------------------*/
+.section-container {
+    padding-top: 4rem !important;
+}
+
+/*-----------------------------Fonts and Colors----------------------------*/
 
 .title {
   font-family: "Balsamiq Sans", sans-serif;
@@ -205,14 +210,11 @@ ul.tips li::before {
 }
 
 .tab-pane img {
-  height: 50%;
-  width: 300px;
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  object-fit: contain;
   display: block;
   border: 1px solid;
   box-shadow: 5px 5px 5px grey;
-  margin: 15px auto 10px auto;
 }
 
 /*----------------------------------Chilli Varieties-------------------------------*/
