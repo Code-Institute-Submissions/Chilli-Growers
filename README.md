@@ -5,6 +5,12 @@
 A website designed to provide information to users on how to grow chilli plants. The website will include a section on recommended chilli types with links to the related wikipedia pages.
 The userbase will mostly be beginners looking to grow their own plant.
 
+# Demo
+
+! [Responsive-Mockup](https://github.com/bob134552/Chilli-Growers/tree/master/images/mockup/site-responsive-mockup.jpg)
+
+A live version of the site can be found [here](https://bob134552.github.io/Chilli-Growers/). 
+
 # UX
 
 To make a responsive website for beginner chilli growers that provides a guide and suggestions for what to grow.
@@ -52,7 +58,7 @@ The site is split up into 3 main sections which are ordered as follows from reas
 After a look at different guides and garden store sites the font "PT Sans" was chosen as it looked like a good fit for a guide site and
 "Balsamiq Sans" for titles complimented the body font.
 
-Each banner's color before each section was chosen to represent the [Scoville Scale](https://en.wikipedia.org/wiki/Scoville_scale) beginning from green to red.
+The footer's color was chosen to represent the [Scoville Scale](https://en.wikipedia.org/wiki/Scoville_scale) beginning from green to red.
 
 ## User Stories
 
@@ -148,7 +154,7 @@ It was noticed that the smooth scrolling was not available on Safari.
 ## Scrolling to wrong point in correct section.
 
 Initially clicking on each navbar link would bring you to the correct section but with the navbar covering part of the heading for the section.
-This was fixed by adding in a banner of equal height to the navbar before each section and having the links on the navbar navigate to each banner.
+This was fixed by increasing the padding to the top of each section.
 
 ## Images not fitting within their respective containers.
 
@@ -181,7 +187,7 @@ scaling down too much.
 
 # Deployment
 
-The project was deployed through Github pages, from the master branch, and a live version of the site can be found [here](https://bob134552.github.io/Chilli-Growers/). 
+The project was deployed through Github pages, from the master branch.
 
 Additionally the site will be updated after any git push to the master branch.
 
@@ -205,6 +211,6 @@ Chilli descriptions adapted from [Pepper Scale](https://www.pepperscale.com/)
 
 ## Acknowledgements
 
-- My parents and brothers for help testing the site and suggestions to grammar and spelling.
 - My wife for suggestions on what content to add and help in color co-ordination.
+- My parents and brothers for help testing the site and suggestions to grammar and spelling.
 - My mentor for suggesting making a single page site instead of multiple pages.

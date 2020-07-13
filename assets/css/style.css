@@ -80,19 +80,7 @@ html {
   background-color: rgba(8, 202, 18, 0.7);
 }
 
-.banner-container--red {
-  background-color: red;
-}
-
-.banner-container--orange {
-  background-color: orangered;
-}
-
-.banner-container--green {
-  background-color: green;
-}
-
-.banner-container--shu {
+.footer-container--shu {
   background-image: linear-gradient(to left, red, yellow, green);
 }
 
@@ -277,16 +265,6 @@ ul.tips li::before {
   min-width: 2rem;
 }
 
-/*----------------------------------------banner------------------------------------------*/
-
-.banner-container {
-  height: 76px;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-
 /*-----------------------------------------footer----------------------------------------*/
 
 .footer-content {
@@ -309,6 +287,7 @@ ul.tips li::before {
 /*----------------------------------------media queries---------------------------------*/
 
 @media (min-width: 1200px) {
+    
   #gallery,
   #reasons,
   #guide {
@@ -317,5 +296,12 @@ ul.tips li::before {
 
   .tab-content {
     border-left: 2px solid;
+  }
+}
+
+@media (max-width: 575.98px) {
+
+  .callout {
+    top: 31%;
   }
 }
