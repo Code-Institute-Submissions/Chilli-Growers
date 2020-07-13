@@ -7,7 +7,7 @@ The userbase will mostly be beginners looking to grow their own plant.
 
 # Demo
 
-! [Responsive-Mockup](https://github.com/bob134552/Chilli-Growers/tree/master/images/mockup/site-responsive-mockup.jpg)
+![Responsive-Mockup](https://github.com/bob134552/Chilli-Growers/tree/master/images/mockup/site-responsive-mockup.jpg)
 
 A live version of the site can be found [here](https://bob134552.github.io/Chilli-Growers/). 
 
